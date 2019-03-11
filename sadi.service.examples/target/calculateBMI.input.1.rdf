@@ -1,0 +1,99 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:mged="http://mged.sourceforge.net/ontologies/MGEDOntology.owl#"
+    xmlns="http://sadiframework.org/examples/bmi.owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <InputClass rdf:about="http://sadiframework.org/examples/bmi-input.rdf#patient1">
+    <mged:has_mass>
+      <mged:Measurement>
+        <mged:has_value>92.9864359</mged:has_value>
+        <mged:has_units rdf:resource="http://mged.sourceforge.net/ontologies/MGEDOntology.owl#kg"/>
+      </mged:Measurement>
+    </mged:has_mass>
+    <mged:has_height>
+      <mged:Measurement>
+        <mged:has_value>1.8796</mged:has_value>
+        <mged:has_units rdf:resource="http://mged.sourceforge.net/ontologies/MGEDOntology.owl#m"/>
+      </mged:Measurement>
+    </mged:has_height>
+    <rdfs:label>patient #1</rdfs:label>
+  </InputClass>
+  <InputClass rdf:about="http://sadiframework.org/examples/bmi-input.rdf#patient3">
+    <mged:has_mass>
+      <mged:Measurement>
+        <mged:has_value>78</mged:has_value>
+        <mged:has_units rdf:resource="http://mged.sourceforge.net/ontologies/MGEDOntology.owl#kg"/>
+      </mged:Measurement>
+    </mged:has_mass>
+    <mged:has_height>
+      <mged:Measurement>
+        <mged:has_value>1.80</mged:has_value>
+        <mged:has_units rdf:resource="http://mged.sourceforge.net/ontologies/MGEDOntology.owl#m"/>
+      </mged:Measurement>
+    </mged:has_height>
+    <rdfs:label>patient #3</rdfs:label>
+  </InputClass>
+  <InputClass rdf:about="http://sadiframework.org/examples/bmi-input.rdf#patient2">
+    <mged:has_mass>
+      <mged:Measurement>
+        <mged:has_value>95.2543977</mged:has_value>
+        <mged:has_units rdf:resource="http://mged.sourceforge.net/ontologies/MGEDOntology.owl#kg"/>
+      </mged:Measurement>
+    </mged:has_mass>
+    <mged:has_height>
+      <mged:Measurement>
+        <mged:has_value>1.8034</mged:has_value>
+        <mged:has_units rdf:resource="http://mged.sourceforge.net/ontologies/MGEDOntology.owl#m"/>
+      </mged:Measurement>
+    </mged:has_height>
+    <rdfs:label>patient #2</rdfs:label>
+  </InputClass>
+  <InputClass rdf:about="http://sadiframework.org/examples/bmi-input.rdf#patient5">
+    <mged:has_mass>
+      <mged:Measurement>
+        <mged:has_value>58.9670081</mged:has_value>
+        <mged:has_units rdf:resource="http://mged.sourceforge.net/ontologies/MGEDOntology.owl#kg"/>
+      </mged:Measurement>
+    </mged:has_mass>
+    <mged:has_height>
+      <mged:Measurement>
+        <mged:has_value>1.8288</mged:has_value>
+        <mged:has_units rdf:resource="http://mged.sourceforge.net/ontologies/MGEDOntology.owl#m"/>
+      </mged:Measurement>
+    </mged:has_height>
+    <rdfs:label>patient #5</rdfs:label>
+  </InputClass>
+  <InputClass rdf:about="http://sadiframework.org/examples/bmi-input.rdf#patient4">
+    <mged:has_mass>
+      <mged:Measurement>
+        <mged:has_value>70.3068174</mged:has_value>
+        <mged:has_units rdf:resource="http://mged.sourceforge.net/ontologies/MGEDOntology.owl#kg"/>
+      </mged:Measurement>
+    </mged:has_mass>
+    <mged:has_height>
+      <mged:Measurement>
+        <mged:has_value>1.8542</mged:has_value>
+        <mged:has_units rdf:resource="http://mged.sourceforge.net/ontologies/MGEDOntology.owl#m"/>
+      </mged:Measurement>
+    </mged:has_height>
+    <rdfs:label>patient #4</rdfs:label>
+  </InputClass>
+  <InputClass rdf:about="http://sadiframework.org/examples/bmi-input.rdf#patient6">
+    <mged:has_mass>
+      <mged:Measurement>
+        <mged:has_value>73.9355563</mged:has_value>
+        <mged:has_units rdf:resource="http://mged.sourceforge.net/ontologies/MGEDOntology.owl#kg"/>
+      </mged:Measurement>
+    </mged:has_mass>
+    <mged:has_height>
+      <mged:Measurement>
+        <mged:has_value>1.8034</mged:has_value>
+        <mged:has_units rdf:resource="http://mged.sourceforge.net/ontologies/MGEDOntology.owl#m"/>
+      </mged:Measurement>
+    </mged:has_height>
+    <rdfs:comment>I am not a number, I am a free man!</rdfs:comment>
+    <rdfs:label>patient #6</rdfs:label>
+  </InputClass>
+</rdf:RDF>
